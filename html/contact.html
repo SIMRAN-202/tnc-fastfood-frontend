@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<!-- css = cascading style sheets
+3 methods to apply css = inline, internal , external -->
+<!-- property:value pair; -->
+
+<body>
+    <header class="contact-header">
+        <nav class="row header-row1">
+            <div class="col header-row1-col1">
+                <img src="../images/logo.png" alt="-fastfood-logo" class="logo">
+            </div>
+            <div class="col header-row1-col2">
+                <ul class="font-white header-ul">
+                    <li class="header-li"><a href="index.html">Home</a></li>
+                    <li class="header-li"><a href="about.html">About Us</a></li>
+                    <li class="header-li"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col header-row1-col3">
+                <i class="bi bi-search font-white nav-icon"></i>
+                <i class="bi bi-basket2 font-white nav-icon"></i>
+                <button class="order-button">Order Now <i class="bi bi-arrow-right order-arrow"></i></button>
+
+            </div>
+        </nav>
+        <div class="contact-header-wrapper">
+            <h2 class="contact-header-wrapper-h2 font-white">Contact Us</h2>
+            <h4 class="contact-header-wrapper-h4">Home <i class="bi bi-arrow-right"></i> Contact Us</h4>
+        </div>
+    </header>
+
+    <section class="contact-info-section">
+        <div class="contact-info-title">
+            <h2 class="contact-info-title-h2">Let's Connect and Create Memorable Experiences Together</h2>
+            <p class="contact-info-title-p">Reach Out for Reservations, Inquiries, or Just to Say Hello –We're Here to
+                Serve You</p>
+        </div>
+        <div class="contact-info-desc">
+            <div class="contact-info-desc-card1">
+                <i class="bi bi-house contact-info-desc-icon"></i>
+                <h3 class="contact-info-desc-h3">Visit our Restaurant</h3>
+                <p class="contact-info-desc-p">93X Hilgard Ave, Los Angeles,<br> CA 900XX, United States.</p>
+            </div>
+            <div class="contact-info-desc-card2">
+                <i class="bi bi-telephone contact-info-desc-icon"></i>
+                <h3 class="contact-info-desc-h3">Contact number</h3>
+                <p class="contact-info-desc-p">+ 123 456 7XX 000 <br>+ 2XX 000 111 00</p>
+
+            </div>
+            <div class="contact-info-desc-card3">
+                <i class="bi bi-envelope contact-info-desc-icon"></i>
+                <h3 class="contact-info-desc-h3">Mail Us</h3>
+                <p class="contact-info-desc-p">example@gmail. <br>tnc@contact-us.com </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2 class="form-h2">Get in Touch with FastFood TNC</h2>
+        <form method="" onsubmit="handleSubmit(event)">
+
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" name="name">
+            <span id="nameError" class="error"></span>
+            <br>
+
+            <label for="email">Email Address</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <span id="emailError" class="error"></span><br>
+
+            <label for="pno">Phone Number</label>
+            <br>
+            <input type="tel" id="pno" name="phonenumber">
+            <span id="phoneError" class="error"></span><br>
+
+            <label for="message">Message*</label>
+            <br>
+            <textarea name="message" id="message" placeholder="message" ></textarea>
+            <span id="messageError" class="error"></span><br>
+            <button class="submit-button">Submit Request</button>
+        </form>
+    </section>
+
+    <footer class="insta-imgs">
+        <div class="
+        insta-imgs-row">
+            <img src="../images/footer5.webp" alt="insta-img" class="insta-image">
+            <img src="../images/footer1.webp" alt="insta-img" class="insta-image">
+            <img src="../images/footer2.webp" alt="insta-img" class="insta-image">
+            <img src="../images/footer3.webp" alt="insta-img" class="insta-image">
+            <img src="../images/footer4.webp" alt="insta-img" class="insta-image">
+        </div>
+        <div class="main-footer">
+            <div class="footer-box footer-box1">
+                <p>Elevate bites, build community, deliver culinary excellence with FastFood TNC</p>
+                <div class="footer-box1-info">
+                    <p> <i class="bi bi-house footer-box1-info-icon"></i>4XX7 Washington Ave. Manchester, Kentucky
+                        39495.</p>
+                    <p> <i class="bi bi-telephone footer-box1-info-icon"></i>(406) 5XX-012X</p>
+                    <p> <i class="bi bi-envelope footer-box1-info-icon"></i>exampleX@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-box footer-box2">
+                <h3 class="font-white">Quick Link</h3>
+                <ul class="footer-ul">
+                    <li class="footer-li">Home</li>
+                    <li class="footer-li">About Us</li>
+                    <li class="footer-li">Shop</li>
+                    <li class="footer-li">Blog</li>
+                    <li class="footer-li">Licensing</li>
+                </ul>
+            </div>
+            <div class="footer-box footer-box3">
+                <h3 class="font-white">Opening Hours</h3>
+                <div class="footer-box3-info">
+                    <p>Monday to Friday <br> 10:00 AM to 12:00 PM</p>
+                    <p>Saturday <br> 12:00 PM to 6:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-box footer-box4">
+                <h3 class="font-white">Newsletter Subscribe</h3>
+                <div class="footer-box4-info">
+                    <p>Stay In the Loop: Unlock Exclusive Offers, Culinary Insights, and More</p>
+                    <input type="email" placeholder="Your Email">
+                    <div class="footer-social-icons">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-pinterest"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-youtube "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p> Copyright &copy; 2024 FastFood TNC. All rights reserved.</p>
+        </div>
+
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
